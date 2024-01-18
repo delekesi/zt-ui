@@ -9,6 +9,10 @@ export const breadcrumbProps = buildProps({
     type: String,
     default: '/',
   },
+  className: {
+    type: String,
+    default: '',
+  },
   /**
    * @description icon component of icon separator
    */
