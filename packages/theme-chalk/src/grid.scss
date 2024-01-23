@@ -1,0 +1,18 @@
+@use 'mixins/mixins'as *;
+@use 'mixins/var'as *;
+@use 'common/var'as *;
+
+@include b(grid_box) {
+  position: relative;
+}
+
+@include b(grid) {
+  position: absolute;
+  transition: opacity 0.3s;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

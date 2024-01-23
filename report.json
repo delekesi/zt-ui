@@ -1,14 +1,32 @@
 {
-  "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "useBuiltIns": "usage",
-        "corejs": 3,
-        "targets": {
-          "browsers": ["> 1%", "not dead", "not op_mini all"]
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 1,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "startTime": 1705910356574,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": ["", "Icon.vue"],
+          "fullName": " Icon.vue render",
+          "status": "passed",
+          "title": "render",
+          "duration": 23,
+          "failureMessages": []
         }
-      }
-    ]
+      ],
+      "startTime": 1705910397012,
+      "endTime": 1705910397035,
+      "status": "passed",
+      "message": "",
+      "name": "F:/localcode/zt-ui/packages/components/icon/__tests__/icon.test.tsx"
+    }
   ]
 }

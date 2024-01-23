@@ -47,6 +47,7 @@ import {
 } from '@element-plus/components/dropdown'
 import { ElEmpty } from '@element-plus/components/empty'
 import { ElForm, ElFormItem } from '@element-plus/components/form'
+import { ElGrid } from '@element-plus/components/grid'
 import { ElIcon } from '@element-plus/components/icon'
 import { ElImage } from '@element-plus/components/image'
 import { ElImageViewer } from '@element-plus/components/image-viewer'
@@ -152,6 +153,7 @@ export default [
   ElEmpty,
   ElForm,
   ElFormItem,
+  ElGrid,
   ElIcon,
   ElImage,
   ElImageViewer,
